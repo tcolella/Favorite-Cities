@@ -16,6 +16,7 @@
 		7AA153C523C8E871003F8D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA153C323C8E871003F8D24 /* LaunchScreen.storyboard */; };
 		7AA153D023C8E872003F8D24 /* Favorite_CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA153CF23C8E872003F8D24 /* Favorite_CitiesTests.swift */; };
 		7AA153DB23C8E872003F8D24 /* Favorite_CitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA153DA23C8E872003F8D24 /* Favorite_CitiesUITests.swift */; };
+		7AA153E923C8E91A003F8D24 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA153E823C8E91A003F8D24 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7AA153D623C8E872003F8D24 /* Favorite CitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite CitiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA153DA23C8E872003F8D24 /* Favorite_CitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_CitiesUITests.swift; sourceTree = "<group>"; };
 		7AA153DC23C8E872003F8D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA153E823C8E91A003F8D24 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		7AA153AA23C8E86F003F8D24 = {
 			isa = PBXGroup;
 			children = (
+				7AA153E823C8E91A003F8D24 /* City.swift */,
 				7AA153B523C8E86F003F8D24 /* Favorite Cities */,
 				7AA153CE23C8E872003F8D24 /* Favorite CitiesTests */,
 				7AA153D923C8E872003F8D24 /* Favorite CitiesUITests */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA153B723C8E870003F8D24 /* AppDelegate.swift in Sources */,
+				7AA153E923C8E91A003F8D24 /* City.swift in Sources */,
 				7AA153B923C8E870003F8D24 /* SceneDelegate.swift in Sources */,
 				7AA153BB23C8E870003F8D24 /* MasterViewController.swift in Sources */,
 				7AA153BD23C8E870003F8D24 /* DetailViewController.swift in Sources */,
